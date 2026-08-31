@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="XRCButton" parent="Widget.Material3.Button">
+        <item name="android:backgroundTint">@color/xrc_accent</item>
+        <item name="android:textColor">@color/xrc_black</item>
+        <item name="android:textStyle">bold</item>
+        <item name="cornerRadius">8dp</item>
+    </style>
+
+    <style name="XRCButtonDanger" parent="Widget.Material3.Button">
+        <item name="android:backgroundTint">@color/xrc_danger</item>
+        <item name="android:textColor">@color/xrc_white</item>
+        <item name="cornerRadius">8dp</item>
+    </style>
+
+    <style name="XRCText" parent="TextAppearance.Material3.BodyMedium">
+        <item name="android:textColor">@color/xrc_text</item>
+    </style>
+</resources>

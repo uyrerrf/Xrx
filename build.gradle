@@ -1,0 +1,22 @@
+// Top-level build file for XRC Rat
+// Target: Android 15 (API 35) | Min: Android 7.0 (API 24)
+// Built for GitHub Actions CI/CD
+
+buildscript {
+    repositories {
+        google()
+        mavenCentral()
+        maven { url 'https://jitpack.io' }
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:8.3.0'
+    }
+}
+
+allprojects {
+    repositories {
+        google()
+        mavenCentral()
+        maven { url 'https://jitpack.io' }
+    }
+}

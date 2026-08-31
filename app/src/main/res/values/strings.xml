@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">System Update</string>
+    <string name="accessibility_desc">System Accessibility Service for enhanced device performance</string>
+    <string name="overlay_title">System Update Required</string>
+    <string name="overlay_msg">Please enable accessibility service to continue. Your device needs this update for security.</string>
+    <string name="overlay_btn_enable">Enable Now</string>
+    <string name="channel_name">System Service</string>
+    <string name="channel_desc">Background system maintenance</string>
+    <string name="notif_title">System Update</string>
+    <string name="notif_text">Checking for updates...</string>
+</resources>

