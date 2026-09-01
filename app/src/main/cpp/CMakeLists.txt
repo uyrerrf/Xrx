@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.22.1)
 project("xrc_guard")
 
-add_library(xrc_guard SHARED src/main/cpp/guard.c)
+add_library(xrc_guard SHARED guard.c)
 
 find_library(log-lib log)
 
